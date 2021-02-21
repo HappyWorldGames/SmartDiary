@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Smart Diary</string>
+    <string name="name">Name</string>
+    <string name="time">Time</string>
+    <string name="room">Room</string>
+    <string name="edit">edit</string>
+    <string name="add">add</string>
+    <string name="remove">Remove</string>
+    <string name="move">move</string>
+
+    <string-array name="weekdays">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+</resources>

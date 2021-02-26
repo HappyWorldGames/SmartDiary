@@ -7,6 +7,7 @@
     <string name="add">add</string>
     <string name="remove">Remove</string>
     <string name="move">move</string>
+    <string name="notification">Notification</string>
 
     <string-array name="weekdays">
         <item>Sunday</item>
@@ -16,5 +17,9 @@
         <item>Thursday</item>
         <item>Friday</item>
         <item>Saturday</item>
+    </string-array>
+
+    <string-array name="setting">
+        <item>Notification</item>
     </string-array>
 </resources>

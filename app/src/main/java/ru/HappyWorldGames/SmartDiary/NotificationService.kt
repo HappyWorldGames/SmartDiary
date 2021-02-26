@@ -9,7 +9,6 @@ import androidx.core.app.NotificationCompat
 import androidx.core.content.ContextCompat.startForegroundService
 import java.util.*
 
-
 class NotificationService : Service() {
     private val CHANNEL_ID = "NotificationService"
 

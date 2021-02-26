@@ -1,9 +1,6 @@
 package ru.HappyWorldGames.SmartDiary
 
-import android.R.attr.x
-import android.R.attr.y
 import java.util.*
-
 
 class DataInfo {
     companion object {
@@ -33,7 +30,7 @@ class DataInfo {
     }
 
     class LessonData(var nameLesson: String = "", var roomLesson: String = "", var timeLesson: TimesLesson = TimesLesson(TimeLesson(0, 0), TimeLesson(0, 0)))
-    class TimesLesson(var start: TimeLesson, var end: TimeLesson){
+    class TimesLesson(var start: TimeLesson, var end: TimeLesson) {
         companion object {
             fun parce(times: String) : TimesLesson {
                 val split = times.split("-")
